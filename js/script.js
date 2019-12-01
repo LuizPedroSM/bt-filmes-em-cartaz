@@ -1,6 +1,6 @@
 $(function () {
     $.ajax({
-        url: 'https://api.myjson.com/bins/16n5dq',
+        url: 'https://raw.githubusercontent.com/LuizPedroSM/bt-filmes-em-cartaz/master/filmes.json',
         type: 'GET',
         dataType: 'json',
         beforeSend: function () {
